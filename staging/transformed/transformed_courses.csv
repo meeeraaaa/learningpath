@@ -1,0 +1,31 @@
+user_id,title,proficiency_level,chapters,duration,course_age,duration_category,proficiency_level_encoded,created_day,created_month,created_year
+1,Java Programming Essentials,Intermediate,6,7.01,1410,Long,2,26,11,2020
+2,Mastering Java Swing for Desktop Applications,Advanced,14,4.68,1093,Medium,3,9,10,2021
+3,SQL for Data Management,Beginner,6,6.33,1674,Medium,1,7,3,2020
+4,C Programming for Beginners,Advanced,7,7.79,1053,Long,3,18,11,2021
+5,Advanced C# Techniques,Advanced,6,2.38,1367,Short,3,8,1,2021
+6,C++ for Game Development,Intermediate,6,8.5,541,Long,2,14,4,2023
+7,Go: A Comprehensive Guide,Beginner,8,2.84,615,Short,1,30,1,2023
+8,Building Web Applications with Django,Advanced,5,1.81,1423,Short,3,14,11,2020
+9,HTML & CSS: The Complete Guide,Intermediate,5,5.46,1324,Medium,2,21,2,2021
+10,JavaScript Fundamentals,Intermediate,9,8.88,573,Long,2,13,3,2023
+11,Node.js for Scalable Network Applications,Advanced,17,5.73,1504,Medium,3,24,8,2020
+12,Next.js: Server-Side Rendering Made Easy,Advanced,10,4.29,7,Medium,3,29,9,2024
+13,TypeScript for Large Applications,Beginner,17,4.12,1614,Medium,1,7,5,2020
+14,Python for Data Analysis,Beginner,16,2.81,1481,Short,1,16,9,2020
+15,DevOps Fundamentals: Continuous Integration & Delivery,Advanced,9,9.92,296,Long,3,16,12,2023
+16,Machine Learning with Python,Beginner,9,3.75,1262,Medium,1,24,4,2021
+17,Data Analysis Techniques for Business Insights,Advanced,18,8.0,1036,Long,3,6,12,2021
+18,DBT: Transforming Data in the Warehouse,Advanced,7,7.89,438,Long,3,26,7,2023
+19,Snowflake Essentials: Data Warehousing,Beginner,6,5.38,1198,Medium,1,26,6,2021
+20,Azure Cloud Fundamentals,Advanced,16,6.72,73,Medium,3,26,7,2024
+21,Power BI for Data Visualization,Advanced,6,4.33,1063,Medium,3,9,11,2021
+22,Data Structures and Algorithms in Java,Intermediate,17,6.87,93,Medium,2,6,7,2024
+23,Cloud Security: Best Practices for IT,Advanced,15,3.15,751,Medium,3,16,9,2022
+24,HR Analytics: Leveraging Data for HR Decisions,Intermediate,7,2.89,866,Short,2,25,5,2022
+25,IT Project Management Fundamentals,Advanced,19,9.81,317,Long,3,25,11,2023
+26,Agile Methodologies for HR and IT,Beginner,10,2.44,1568,Short,1,21,6,2020
+27,Cybersecurity Essentials for IT Professionals,Intermediate,6,8.75,632,Long,2,13,1,2023
+28,Effective Communication in HR,Advanced,18,4.4,1379,Medium,3,28,12,2020
+29,Talent Management Strategies in the Digital Age,Advanced,15,5.67,167,Medium,3,22,4,2024
+30,Building a Diverse Workplace Culture,Intermediate,13,7.39,287,Long,2,24,12,2023
