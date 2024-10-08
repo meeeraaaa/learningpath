@@ -32,11 +32,15 @@ data_engineering/
 │       ├── mart_course_completion.csv
 │       └── mart_user_skill.csv
 
+
+
 do this for fact_course_progress.csv :
-completion_rate = progress_df.groupby('courseId')['percentage_completed'].mean().reset_index()
-courses_df = courses_df.merge(completion_rate, on='id', how='left')
-courses_df.rename(columns={'percentage_completed': 'average_completion_rate'}, inplace=True)
+completion rate: everage number of days users havve taken to go from 0 to a 100percent completed on a course
+
 progress_df['at_risk'] = (progress_df['percentage_completed'] < 50).astype(int)  # Flag users with less than 50% progress when the date of course assigned (first entry of that user with that course in progress table) has exceeded 15days
+
+
+
 total courses completed per user,
 
 
@@ -51,4 +55,49 @@ for reporting and shit:
 #fact user:total courses completed per user
 
 
+
+also, according to this write a python scipt to define set of skills  needed by designations in a designations_skill.csv. and save it in the raw folder id,name
+1,Java
+2,Java Swing
+3,SQL
+4,C
+5,C#
+6,C++
+7,Go
+8,Django
+9,HTML
+10,CSS
+11,JavaScript
+12,Node.js
+13,Next.js
+14,TypeScript
+15,Python
+16,DevOps
+17,Machine Learning
+18,Data Analysis
+19,DBT
+20,Snowflake
+21,Azure
+22,PowerBI
+23,Data Structures
+24,Cloud Computing
+25,Cybersecurity
+26,Networking Fundamentals
+27,Agile Methodologies
+28,Employee Relations
+29,Performance Management
+30,Recruitment and Selection
+31,HR Information Systems (HRIS)
+32,Conflict Resolution
+id,title
+1,SDE
+2,SDE Sr
+3,Solutions Enabler
+4,Consultant
+5,Solutions Architect
+6,Principal Architect
+7,IT
+8,Finance
+9,Accounting
+10,HR
 

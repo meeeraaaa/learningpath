@@ -1,31 +1,31 @@
 id,title,proficiency_level,no_of_chapters,duration,createdAt
-1,Java Programming Essentials,Intermediate,6,7.01,2020-11-26 13:56:58
-2,Mastering Java Swing for Desktop Applications,Advanced,14,4.68,2021-10-09 16:48:40
-3,SQL for Data Management,Beginner,6,6.33,2020-03-07 18:05:38
-4,C Programming for Beginners,Advanced,7,7.79,2021-11-18 21:42:27
-5,Advanced C# Techniques,Advanced,6,2.38,2021-01-08 22:43:58
-6,C++ for Game Development,Intermediate,6,8.5,2023-04-14 13:11:12
-7,Go: A Comprehensive Guide,Beginner,8,2.84,2023-01-30 13:46:36
-8,Building Web Applications with Django,Advanced,5,1.81,2020-11-14 08:05:45
-9,HTML & CSS: The Complete Guide,Intermediate,5,5.46,2021-02-21 07:21:28
-10,JavaScript Fundamentals,Intermediate,9,8.88,2023-03-13 20:00:45
-11,Node.js for Scalable Network Applications,Advanced,17,5.73,2020-08-24 15:06:37
-12,Next.js: Server-Side Rendering Made Easy,Advanced,10,4.29,2024-09-29 21:21:53
-13,TypeScript for Large Applications,Beginner,17,4.12,2020-05-07 04:09:11
-14,Python for Data Analysis,Beginner,16,2.81,2020-09-16 15:55:09
-15,DevOps Fundamentals: Continuous Integration & Delivery,Advanced,9,9.92,2023-12-16 08:08:45
-16,Machine Learning with Python,Beginner,9,3.75,2021-04-24 01:38:32
-17,Data Analysis Techniques for Business Insights,Advanced,18,8.0,2021-12-06 11:02:39
-18,DBT: Transforming Data in the Warehouse,Advanced,7,7.89,2023-07-26 23:10:36
-19,Snowflake Essentials: Data Warehousing,Beginner,6,5.38,2021-06-26 15:16:59
-20,Azure Cloud Fundamentals,Advanced,16,6.72,2024-07-26 02:42:01
-21,Power BI for Data Visualization,Advanced,6,4.33,2021-11-09 03:41:03
-22,Data Structures and Algorithms in Java,Intermediate,17,6.87,2024-07-06 04:53:15
-23,Cloud Security: Best Practices for IT,Advanced,15,3.15,2022-09-16 20:12:39
-24,HR Analytics: Leveraging Data for HR Decisions,Intermediate,7,2.89,2022-05-25 03:17:25
-25,IT Project Management Fundamentals,Advanced,19,9.81,2023-11-25 11:49:18
-26,Agile Methodologies for HR and IT,Beginner,10,2.44,2020-06-21 14:35:42
-27,Cybersecurity Essentials for IT Professionals,Intermediate,6,8.75,2023-01-13 15:47:38
-28,Effective Communication in HR,Advanced,18,4.4,2020-12-28 04:51:17
-29,Talent Management Strategies in the Digital Age,Advanced,15,5.67,2024-04-22 16:46:51
-30,Building a Diverse Workplace Culture,Intermediate,13,7.39,2023-12-24 22:19:27
+1,Java Programming Essentials,Beginner,5,2,2020-04-18 12:09:06
+2,Mastering Java Swing for Desktop Applications,Beginner,9,10,2020-09-12 04:33:26
+3,SQL for Data Management,Advanced,10,10,2024-05-10 15:39:06
+4,C Programming for Beginners,Beginner,15,7,2021-10-07 22:25:20
+5,Advanced C# Techniques,Advanced,7,5,2021-02-24 19:52:14
+6,C++ for Game Development,Intermediate,17,5,2024-01-04 20:41:13
+7,Go: A Comprehensive Guide,Advanced,16,3,2022-08-24 11:31:46
+8,Building Web Applications with Django,Beginner,15,8,2024-09-26 05:09:06
+9,HTML & CSS: The Complete Guide,Intermediate,5,9,2020-03-16 15:26:41
+10,JavaScript Fundamentals,Intermediate,13,2,2024-07-10 07:03:21
+11,Node.js for Scalable Network Applications,Advanced,13,10,2022-11-27 11:22:10
+12,Next.js: Server-Side Rendering Made Easy,Intermediate,8,3,2021-12-08 04:51:16
+13,TypeScript for Large Applications,Intermediate,9,3,2020-07-02 06:46:48
+14,Python for Data Analysis,Beginner,20,10,2022-04-14 20:20:42
+15,DevOps Fundamentals: Continuous Integration & Delivery,Intermediate,14,6,2021-12-18 12:53:51
+16,Machine Learning with Python,Intermediate,7,8,2020-05-27 14:39:04
+17,Data Analysis Techniques for Business Insights,Beginner,9,8,2020-03-06 19:40:21
+18,DBT: Transforming Data in the Warehouse,Beginner,11,10,2024-04-24 02:35:55
+19,Snowflake Essentials: Data Warehousing,Intermediate,15,3,2022-10-01 08:03:45
+20,Azure Cloud Fundamentals,Beginner,15,4,2021-11-02 03:31:33
+21,Power BI for Data Visualization,Advanced,16,4,2021-03-21 02:43:04
+22,Data Structures and Algorithms in Java,Beginner,14,4,2022-07-28 13:08:33
+23,Cloud Security: Best Practices for IT,Beginner,9,6,2023-09-16 16:23:43
+24,HR Analytics: Leveraging Data for HR Decisions,Beginner,6,8,2023-07-12 02:29:03
+25,IT Project Management Fundamentals,Advanced,15,3,2023-01-23 13:34:15
+26,Agile Methodologies for HR and IT,Advanced,14,6,2023-11-23 01:51:28
+27,Cybersecurity Essentials for IT Professionals,Advanced,10,4,2021-01-11 03:09:09
+28,Effective Communication in HR,Advanced,6,9,2024-01-02 23:37:30
+29,Talent Management Strategies in the Digital Age,Beginner,18,4,2022-08-13 08:34:57
+30,Building a Diverse Workplace Culture,Intermediate,18,8,2021-02-13 00:00:25
