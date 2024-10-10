@@ -1,4 +1,4 @@
-user_id,title,proficiency_level,chapters,duration,course_age,duration_category,proficiency_level_encoded,created_day,created_month,created_year
+courseId,title,proficiency_level,chapters,duration,course_age,duration_category,proficiency_level_encoded,created_day,created_month,created_year
 1,Java Programming Essentials,Beginner,5,2,1634,Short,1,18,4,2020
 2,Mastering Java Swing for Desktop Applications,Beginner,9,10,1487,Long,1,12,9,2020
 3,SQL for Data Management,Advanced,10,10,150,Long,3,10,5,2024

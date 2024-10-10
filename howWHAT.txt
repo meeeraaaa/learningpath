@@ -1,10 +1,10 @@
 data engg in 2 layers (in folder straucture ) of staging,datawarehouse (to make dimension tbales),datamart layer .
-i have to make fact and dimension tables. suggest what to do in each layer according to the data
-this is the naming scheme i will be using , given your structure. give me code how can i do to get this transformed_users.csv. 
+i have to make fact and dimension tables. do in each layer according to the data
 in my opinion,lets create the userskillproficiency, courseskill,designationskill normalised tables in the dimension layer. it will be an added step to be able to show
 define hierarchy in designations. 
 data_engineering/
-│
+├── datascience/
+│   ├── pred.ipynb
 ├── staging/
 │   ├── raw/
 │   │   ├── users.csv
@@ -18,6 +18,9 @@ data_engineering/
 │       ├── transformed_users.csv
 │       ├── transformed_courses.csv
 │       └── transformed_progress.csv
+│       └── transformed_users.ipynb
+│       └── transformed_progress.ipynb
+│       └── transformed_coursess.ipynb
 │
 ├── mart/
 │   ├── dimension/
@@ -25,12 +28,18 @@ data_engineering/
 │   │   ├── dim_courses.csv
 │   │   ├── dim_designations.csv
 │   │   ├── dim_skills.csv
-│   │   └── dim_time.csv
 │   ├── fact/
-│   │   ├── fact_course_progress.csv 
+│   │   ├── fact_course_progress.csv
+│   │   ├── courses_taken.csv
+│   │   ├── mart_course_progress.csv
+│   │   ├── mart_course_skills.csv
+│   │   ├── mart_designation_course.csv
+│   │   ├── mart_designation_skills.csv
+│   │   ├── mart_user_course_completion.csv
+│   │   ├── mart_user_skills.csv
 ├── reporting/
 │       ├── mart_course_completion.csv
-│       └── mart_user_skill.csv
+│       └── fact_course_progress.csv
 
 
 
@@ -56,48 +65,39 @@ for reporting and shit:
 
 
 
-also, according to this write a python scipt to define set of skills  needed by designations in a designations_skill.csv. and save it in the raw folder id,name
-1,Java
-2,Java Swing
-3,SQL
-4,C
-5,C#
-6,C++
-7,Go
-8,Django
-9,HTML
-10,CSS
-11,JavaScript
-12,Node.js
-13,Next.js
-14,TypeScript
-15,Python
-16,DevOps
-17,Machine Learning
-18,Data Analysis
-19,DBT
-20,Snowflake
-21,Azure
-22,PowerBI
-23,Data Structures
-24,Cloud Computing
-25,Cybersecurity
-26,Networking Fundamentals
-27,Agile Methodologies
-28,Employee Relations
-29,Performance Management
-30,Recruitment and Selection
-31,HR Information Systems (HRIS)
-32,Conflict Resolution
-id,title
-1,SDE
-2,SDE Sr
-3,Solutions Enabler
-4,Consultant
-5,Solutions Architect
-6,Principal Architect
-7,IT
-8,Finance
-9,Accounting
-10,HR
 
+
+
+tables i have :C:\Users\AnanyaSarkar\Documents\project\datascienceandengg\staging\transformed\transformed_courses.csv
+courseId,title,proficiency_level,chapters,duration,course_age,duration_category,proficiency_level_encoded,created_day,created_month,created_year
+
+C:\Users\AnanyaSarkar\Documents\project\datascienceandengg\staging\transformed\trans_prog.ipynb
+id,courseId,userId,chapters_completed,percentage_completed,certificate,updated_day,updated_month,updated_year,progress_category
+
+C:\Users\AnanyaSarkar\Documents\project\datascienceandengg\staging\transformed\transf_user.ipynb
+user_id,user_name,email,role,designation_id,sex,years_of_experience,join_date,join_year,join_month,join_day,tenure
+
+C:\Users\AnanyaSarkar\Documents\project\datascienceandengg\staging\raw\user_skills.csv
+id,userId,skillId,Proficiency_level
+
+C:\Users\AnanyaSarkar\Documents\project\datascienceandengg\staging\raw\skills.csv
+id,name
+
+C:\Users\AnanyaSarkar\Documents\project\datascienceandengg\staging\raw\designations.csv
+id,title
+C:\Users\AnanyaSarkar\Documents\project\datascienceandengg\staging\raw\designations_skill.csv
+designation_id,skill_id
+
+C:\Users\AnanyaSarkar\Documents\project\datascienceandengg\staging\raw\course_skills.csv
+id,courseId,skillId
+
+C:\Users\AnanyaSarkar\Documents\project\datascienceandengg\staging\raw\courses.csv
+id,title,proficiency_level,no_of_chapters,duration,createdAt
+C:\Users\AnanyaSarkar\Documents\project\datascienceandengg\marts\fact\fact_users.csv
+user_id,user_name,email,designation_id,sex,years_of_experience,join_date,join_year,join_month,join_day,tenure,progress_id,courseId,userId,chapters_completed,percentage_completed,certificate,updated_day,updated_month,updated_year,progress_category,course_id,proficiency_level,beginner_comp_rate,intermediate_comp_rate,advanced_comp_rate
+C:\Users\AnanyaSarkar\Documents\project\datascienceandengg\reporting\fact_course_progress.csv
+courseId,title,proficiency_level,chapters,duration,course_age,duration_category,proficiency_level_encoded,created_day,created_month,created_year,total_days_to_complete,total_users_completed,median_completion_time,total_users_with_certificate,average_days_to_complete,completion_rate,total_chapters,percentage_completed,last_update_date
+
+C:\Users\AnanyaSarkar\Documents\project\datascienceandengg\reporting\mart_course_completion.csv
+courseId,title,proficiency_level,duration,total_chapters,total_users_enrolled,total_users_completed,completion_rate,average_days_to_complete,median_completion_time,total_users_with_certificate,last_update_date,certificate_rate
+C:\Users\AnanyaSarkar\Documents\project\datascienceandengg\reporting\rep_prog.ipynb
